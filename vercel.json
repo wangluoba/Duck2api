@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/api/router.go" // 将所有请求路由到你的 Go 代码
+      "destination": "/api/router.go"
     }
   ]
 }
