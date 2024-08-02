@@ -1,8 +1,17 @@
 {
+  "env": {
+    "PREFIX": "/api"
+  },
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/api/router.go"
     }
-  ]
+  ],
+  "functions": {
+    "api/router.go": {
+      "runtime": "go1.x"
+    }
+  }
 }
+
