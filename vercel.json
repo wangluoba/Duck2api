@@ -1,8 +1,8 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/.*",
-      "dest": "/api/router.go"
+      "source": "/(.*)",
+      "destination": "/api/router.go" // 将所有请求路由到你的 Go 代码
     }
   ]
 }
